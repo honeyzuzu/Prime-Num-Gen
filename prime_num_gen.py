@@ -31,7 +31,7 @@ if __name__ == '__main__':
     prime_nums_list = generation_loop(int(amt_of_numbers))
 
     count = 1
-    for i in range(1, int(amt_of_numbers)):
+    for i in range(1, int(amt_of_numbers)+1):
         print(prime_nums_list[i])
         count +=1
         #print('\n')
